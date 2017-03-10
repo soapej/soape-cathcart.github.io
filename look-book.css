@@ -11,19 +11,45 @@
   font-family: "Snell";
 }
 
+.img-block {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+.img-block:hover {
+  /*background-blend-mode: multiply;
+  background-color: #eee;*/
+}
+
+.view-text {
+  font-family: "Noto Sans";
+  margin-top: 315px;
+}
+.view-text button {
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 5px 8px;
+}
+#block-1 {
+  background-image: url("img/style-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 230px;
+}
+
+
 .look-gallery img {
   border: 1px solid #bbb;
   border-radius: 10px;
   /*box-shadow: 5px 5px 5px #888888;*/
   cursor: pointer;
-  margin: 10px, 15px;
+  margin-top: 10px;
 }
 
 .look-gallery img:hover {
+  background-color: #222;
   opacity: .7;
 
-}
-
-#look-book-gallery-2 img {
-  margin: 15px 15px;
 }
